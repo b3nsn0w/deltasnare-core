@@ -1,0 +1,14 @@
+{
+  "name": "@deltasnare/core",
+  "version": "1.0.0",
+  "description": "Single-chunk core piece of the Deltasnare engine",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Snow <balintbence97@gmail.com>",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "json-stable-stringify": "^1.0.1"
+  }
+}
