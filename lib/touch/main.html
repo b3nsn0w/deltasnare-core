@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>touch control demo</title>
+</head>
+<body>
+<div id="tb" ontouchstart="handle(event)" ontouchmove="handle(event)" ontouchend="handle(event)">Que</div>
+<div id="debug">
+  Debug
+    <div id="debugAction">IDLE<br>TS: ?</div>
+    <br>
+    <input type="number" min=0 max=40000 value=100 onchange="inputTreshold.changeInY=Number(this.value)"> minimum Y change<br>
+    <input type="number" min=0 max=10000 value=500 onchange="inputTreshold.betweenInputs=Number(this.value)"> treshold between inputs
+</div>
+<style>
+#tb {
+  height:500px;
+  width:500px;
+  border:1px solid;
+}
+#tb, #debug {
+  display:block;
+}
+#debug {
+  border:1px solid blue;
+  width:500px;
+
+}
+* {
+  user-select:none;
+  font-family:monospace;
+}
+</style>
+<script src="index.js"></script>
+</body>
+</html>
