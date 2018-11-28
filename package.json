@@ -1,6 +1,6 @@
 {
   "name": "@deltasnare/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Single-chunk core piece of the Deltasnare engine",
   "main": "lib/index.js",
   "scripts": {
