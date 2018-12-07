@@ -10,5 +10,17 @@
   "license": "LGPL-3.0",
   "dependencies": {
     "json-stable-stringify": "^1.0.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3nsn0w/deltasnare-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/b3nsn0w/deltasnare-core/issues"
+  },
+  "homepage": "https://github.com/b3nsn0w/deltasnare-core#readme"
 }
